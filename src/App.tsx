@@ -7,8 +7,8 @@ import {
 } from 'lucide-react'
 
 const phone = '+918572099802'
-const address = 'Thane Wali Galli, Opposite ATM, Main Market, Sadhaura, Yamunanagar, Haryana – 133204'
-const directions = 'https://www.google.com/maps/search/?api=1&query=Rehmat+Communication+Sadhaura+Yamunanagar'
+const address = '96MF+GMC, Thane Wali Gali, near Allahabad Bank, Sadhaura, Haryana 133204'
+const directions = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`
 const whatsapp = `https://wa.me/${phone.slice(1)}`
 
 const issues = [
