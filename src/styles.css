@@ -235,7 +235,7 @@ h1, h2, h3, p { margin-top: 0; }
 .map-label { position: absolute; top: 24%; right: 13%; color: #8397a2; font: 7px var(--mono); letter-spacing: .18em; }
 .address-link { display: flex; justify-content: flex-end; align-items: center; gap: 7px; margin-top: 12px; color: #9ab4bf; font: 8px var(--mono); letter-spacing: .12em; }
 .address-link svg { color: var(--cyan); }
-.hours-note { padding-top: 16px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 10px; color: #929fa9; font-size: 10px; }
+.hours-note { padding: 14px 16px; border: 1px solid rgba(211,184,138,.2); display: flex; align-items: center; gap: 10px; color: #c1cbd1; background: rgba(211,184,138,.045); font-size: 12px; line-height: 1.65; }
 .hours-note > svg { color: #d2b88a; flex: 0 0 auto; }
 .provisional-tag { margin-left: auto; padding: 6px 8px; border: 1px solid rgba(211,184,138,.25); color: #d2b88a; font: 7px var(--mono); letter-spacing: .08em; white-space: nowrap; }
 
@@ -356,7 +356,7 @@ h1, h2, h3, p { margin-top: 0; }
   .visit-main h2 { font-size: clamp(45px, 10vw, 61px); }
   .visit-address { font-size: 11px; }
   .map-visual { height: 245px; }
-  .hours-note { align-items: flex-start; flex-wrap: wrap; font-size: 9px; line-height: 1.6; }
+  .hours-note { align-items: flex-start; flex-wrap: wrap; font-size: 11px; line-height: 1.6; }
   .hours-note > span:first-of-type { flex: 1 1 calc(100% - 34px); }
   .provisional-tag { margin: 0 0 0 26px; }
   .closing-section { min-height: 345px; padding: 69px 6%; }
