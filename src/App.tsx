@@ -141,12 +141,12 @@ function App() {
       {cursorEnabled && <span className="custom-cursor" style={{ transform: `translate3d(${cursor.x}px, ${cursor.y}px, 0)`, opacity: cursor.visible ? 1 : 0 }} aria-hidden="true" />}
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="Rehmat Communication home">
-          <img className="brand-icon" src="/images/rehmat-icon.svg" alt="Metallic R, smartphone and lightning-bolt symbol" width="42" height="42" />
+          <img className="brand-icon" src="./images/rehmat-icon.svg" alt="Metallic R, smartphone and lightning-bolt symbol" width="42" height="42" />
           <span className="brand-copy"><strong>REHMAT</strong><small>COMMUNICATION</small></span>
         </a>
         <nav className={`desktop-nav ${menuOpen ? 'nav-open' : ''}`} aria-label="Main navigation">
           <a className="mobile-menu-brand" href="#home" onClick={closeMenu}>
-            <img src="/images/rehmat-icon.svg" alt="Metallic R, smartphone and lightning-bolt symbol" width="38" height="38" />
+            <img src="./images/rehmat-icon.svg" alt="Metallic R, smartphone and lightning-bolt symbol" width="38" height="38" />
             <span>REHMAT COMMUNICATION</span>
           </a>
           {[['home', 'Overview'], ['services', 'Services'], ['assistant', 'Repair enquiry'], ['pricing', 'Estimates'], ['about', 'About'], ['visit', 'Find us']].map(([id, label]) => (
@@ -182,11 +182,11 @@ function App() {
             <div className="visual-index">RC — 001</div>
             <div className="hero-product-pair">
               <figure className="product-photo product-photo-iphone">
-                <img src="/images/iphone-16-pro-back.jpg" alt="Real iPhone 16 Pro in white titanium, shown from the back" fetchPriority="high" />
+                <img src="./images/iphone-16-pro-back.jpg" alt="Real iPhone 16 Pro in white titanium, shown from the back" fetchPriority="high" />
                 <figcaption><span>01 / IPHONE</span><strong>iPhone 16 Pro</strong></figcaption>
               </figure>
               <figure className="product-photo product-photo-oppo">
-                <img src="/images/oppo-reno-6-pro-back.jpg" alt="Real OPPO Reno 6 Pro+ 5G in blue, shown from the back" fetchPriority="high" />
+                <img src="./images/oppo-reno-6-pro-back.jpg" alt="Real OPPO Reno 6 Pro+ 5G in blue, shown from the back" fetchPriority="high" />
                 <figcaption><span>02 / ANDROID</span><strong>OPPO Reno 6 Pro+ 5G</strong></figcaption>
               </figure>
             </div>
@@ -291,7 +291,7 @@ function App() {
           <div className="section-topline"><span>04 / ABOUT REHMAT COMMUNICATION</span><span>LOCAL MOBILE REPAIR & ACCESSORIES</span></div>
           <div className="about-brand-layout">
             <Reveal className="about-logo-panel">
-              <img className="full-brand-logo about-full-logo" src="/images/rehmat-full-logo.svg" alt="Rehmat Communication — Mobile Repair & Accessories" width="980" height="270" />
+              <img className="full-brand-logo about-full-logo" src="./images/rehmat-full-logo.svg" alt="Rehmat Communication — Mobile Repair & Accessories" width="980" height="270" />
             </Reveal>
             <Reveal className="about-brand-copy" delay={0.12}>
               <p className="eyebrow">YOUR LOCAL DEVICE CARE STOP</p>
@@ -335,7 +335,7 @@ function App() {
 
       <footer className="site-footer">
         <a className="footer-full-logo-link" href="#home" aria-label="Rehmat Communication home">
-          <img className="full-brand-logo footer-full-logo" src="/images/rehmat-full-logo.svg" alt="Rehmat Communication — Mobile Repair & Accessories" width="980" height="270" />
+          <img className="full-brand-logo footer-full-logo" src="./images/rehmat-full-logo.svg" alt="Rehmat Communication — Mobile Repair & Accessories" width="980" height="270" />
         </a>
         <p>Mobile repair & accessories<br />Sadhaura, Haryana</p>
         <div className="footer-photo-credits">
