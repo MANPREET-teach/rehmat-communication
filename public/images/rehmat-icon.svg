@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="frame" x1="33" y1="25" x2="221" y2="231" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5fdff"/>
+      <stop offset=".24" stop-color="#70eaff"/>
+      <stop offset=".52" stop-color="#168cff"/>
+      <stop offset=".78" stop-color="#e7f6ff"/>
+      <stop offset="1" stop-color="#40cfff"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="89" y1="45" x2="192" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".28" stop-color="#8499ad"/>
+      <stop offset=".48" stop-color="#fff"/>
+      <stop offset=".74" stop-color="#8199b3"/>
+      <stop offset="1" stop-color="#eaf7ff"/>
+    </linearGradient>
+    <linearGradient id="electric" x1="103" y1="83" x2="163" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d9ffff"/>
+      <stop offset=".34" stop-color="#14eaff"/>
+      <stop offset="1" stop-color="#0875ff"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="256" height="256" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="48" stroke="#147dff" stroke-opacity=".48" stroke-width="2"/>
+  <rect x="16" y="16" width="224" height="224" rx="44" stroke="url(#frame)" stroke-opacity=".75" stroke-width="2"/>
+  <ellipse cx="128" cy="135" rx="104" ry="31" transform="rotate(-27 128 135)" stroke="#087dff" stroke-opacity=".85" stroke-width="4" filter="url(#glow)"/>
+  <path d="M75 41h71c13 0 23 10 23 23v128c0 13-10 23-23 23H75c-13 0-23-10-23-23V64c0-13 10-23 23-23Z" transform="rotate(-10 52 41)" fill="#07111d" stroke="url(#frame)" stroke-width="5"/>
+  <path d="M79 55h60c10 0 17 7 17 17v106c0 10-7 17-17 17H79c-10 0-17-7-17-17V72c0-10 7-17 17-17Z" transform="rotate(-10 62 55)" fill="#061522" stroke="#4edaff" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M91 174 111 66h45c28 0 43 14 39 36-3 15-13 25-29 30 17 4 23 16 19 34l-2 8 24 29h-40l-20-26c-5-7-10-10-18-10h-19l-7 36H91Zm43-61h19c12 0 19-5 21-14 1-8-4-12-15-12h-19l-6 26Z" fill="#060e18" stroke="#07111b" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M91 174 111 66h45c28 0 43 14 39 36-3 15-13 25-29 30 17 4 23 16 19 34l-2 8 24 29h-40l-20-26c-5-7-10-10-18-10h-19l-7 36H91Zm43-61h19c12 0 19-5 21-14 1-8-4-12-15-12h-19l-6 26Z" fill="url(#chrome)" stroke="#d7f5ff" stroke-opacity=".95" stroke-width="2.5" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="m125 89-21 45h23l-10 34 39-52h-24l13-27h-20Z" fill="url(#electric)" stroke="#a9fbff" stroke-width="2" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M102 57h22" stroke="#27e6ff" stroke-linecap="round" stroke-width="3"/>
+</svg>
